@@ -12,16 +12,16 @@
         <isbn>95663</isbn>
         <author>Erik T. Ray</author>
     </technical_books>
-E
+
     <cookery_books>
         <title>Cook, eat, repeat</title>
         <isbn>64390</isbn>
         <author>Nigelle Lawson</author>
-    <.cookery_books>
+    <cookery_books>
 
     <cookery_books>
         <title>Midweek Meals</title>
         <isbn>64390</isbn>
         <author>Neven Maguire</author>
-    </cookery_boks>
+    </cookery_books>
 </library>
