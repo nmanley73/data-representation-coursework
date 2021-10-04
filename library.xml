@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+
+<library>
+    <technical_books>
+        <title>XML in a nutshell</title>
+        <isbn>12563</isbn>
+        <author>Elliotte Rusty Harold</author>
+    </technical_books>
+
+    <technical_books>
+        <title>Learning XML</title>
+        <isbn>95663</isbn>
+        <author>Erik T. Ray</author>
+    </technical_books>
+E
+    <cookery_books>
+        <title>Cook, eat, repeat</title>
+        <isbn>64390</isbn>
+        <author>Nigelle Lawson</author>
+    <.cookery_books>
+
+    <cookery_books>
+        <title>Midweek Meals</title>
+        <isbn>64390</isbn>
+        <author>Neven Maguire</author>
+    </cookery_boks>
+</library>
