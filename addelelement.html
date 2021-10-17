@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Add element</title>
+
+</head>
+    <body>
+        <table id = "mainTable">
+            <tr>
+                <td>Tourlestrane</td>
+                <td>Coolera</td>
+                <td><button onclick="doRow(this)">Output</button></td>
+            </tr>
+        </table>
+        <button onclick="createRow()">Create Row</button>
+
+    </body>
+        <script>
+            function doRow(buttonElement){
+                var rowElement = buttonElement.parentNode.parentNode
+                var data={}
+                data.cell1 = rowElement.cells[0].firstChild.textcontent;
+                data.cell2 = rowElement.cells[1].firstChild.textcontent;
+
+                console.log(JSON.stringify(data))
+            }
+
+
+            function createRow(){
+                var tableElement = document.getElementById('mainTable')
+                var data = {cell1:'hi',cell2:'bye',cell3:'hello'}
+
+                var rowElement = tableElement.insertRow(-1)
+                var cellElement = rowElement.insertCell(0)
+ 
+                cellElement.innerHTML = data.cell1;
+                cellElement.rowElement.InsertCell(1)
+                cellElement.innerHTML = data.cell2;
+                cellElement.rowElement.insertCell(2)
+                cellElement.innerHTML = data.cell3;
+            }
+
+               
+        </script>
+
+
+</html>
